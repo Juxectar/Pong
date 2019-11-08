@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(23, 23, 88);
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+}
+#pong {
+    border: 5px solid white;
+    margin: auto;
+}
+
+#div0, #div1 {
+    width: 100%;
+}
+
+#div0 p, #div1 p {
+    display: block;
+    height: 100%;
+    line-height: 400px;
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-size: 150px;
+}
+
+#div0 p{
+    text-align: right;
+}
+
+#div1 p{
+    text-align: left;
+}
+
+#button1 {
+    position: absolute;
+    left: 50%;
+    margin-top: 5px;
+    height: 100px;
+    width: 100px;
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-size: 30px;
+    border-radius: 100%;
+    background: rgba(255, 0, 0, 0.623);
+    transform: translate(-50%);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.623);
+    border: none;
+}
+
+#button1:hover {
+    background: rgba(219, 14, 14, 0.623);
+}
+
+#speed {
+    margin-top: 140px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-size: 30px;
+    color: white;
+}
